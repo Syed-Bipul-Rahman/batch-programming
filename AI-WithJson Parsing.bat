@@ -28,7 +28,7 @@ REM Prompt the user for input
 set /p userInput=Enter your question or prompt (Ctrl+C to exit): 
 
 REM Execute the curl command with the user's input
-curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyDbBeNwdGReyIj8A_qHDlROG075JVdhbpA" ^
+curl -s "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=API_KEYSSSS" ^
 -H "Content-Type: application/json" ^
 -X POST ^
 -d "{\"contents\": [{\"parts\":[{\"text\": \"%userInput%\"}]}]}" > response.json
